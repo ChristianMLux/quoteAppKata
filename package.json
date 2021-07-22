@@ -1,0 +1,26 @@
+{
+  "name": "quoteappkata",
+  "version": "1.0.0",
+  "description": "just another random quote app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianMLux/quoteAppKata.git"
+  },
+  "keywords": [
+    "quote",
+    "random"
+  ],
+  "author": "Christian M Lux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristianMLux/quoteAppKata/issues"
+  },
+  "homepage": "https://github.com/ChristianMLux/quoteAppKata#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
