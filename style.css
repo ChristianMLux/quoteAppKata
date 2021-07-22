@@ -1,0 +1,13 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #e8fff7;
+}
+main {
+  margin: 0 auto;
+  max-width: 60ch;
+}
+.quotes {
+  padding: 4rem;
+}

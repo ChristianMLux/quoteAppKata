@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Christian M Lux" />
+    <meta name="description" content="Just another random quote app" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>RandomQuotes</title>
+  </head>
+  <body>
+    <header class="modal-header main-header">
+      <h1>Quote app</h1>
+      <button type="button" id="getQuoteBtn" class="btn btn-primary">
+        Get Quote
+      </button>
+    </header>
+    <main>
+      <section class="quotes">
+        <figure>
+          <blockquote class="blockquote" id="blockquote">
+            <p>
+              “My mom always said life was like a box of chocolates. You never
+              know what you're gonna get.”
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer" id="source">
+            <cite title="Source Title" id="author">Forrest Gump</cite>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
